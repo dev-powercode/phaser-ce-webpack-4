@@ -1,0 +1,40 @@
+{
+  "name": "phaser-ce-webpack-4",
+  "version": "1.0.0",
+  "description": "Phaser CE with Webpack 4",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev webpack-dev-server --open --config webpack.config.js",
+    "start": "npm run dev",
+    "build": "webpack -p --progress --mode production --config webpack.config.js"
+  },
+  "keywords": [
+    "phazer",
+    "phazer ce",
+    "phazer 2",
+    "game",
+    "canvas",
+    "WebGL"
+  ],
+  "author": "dev.powercode@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^2.0.1",
+    "copy-webpack-plugin": "^5.0.2",
+    "cross-env": "^5.2.0",
+    "expose-loader": "^0.7.5",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "preload-webpack-plugin": "^3.0.0-beta.3",
+    "terser-webpack-plugin": "^1.2.3",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "dependencies": {
+    "phaser-ce": "^2.12.0"
+  }
+}

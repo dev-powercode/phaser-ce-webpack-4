@@ -1,0 +1,13 @@
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# npm and webpack
+node_modules
+package-lock.json
+dist
